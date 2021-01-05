@@ -1,0 +1,35 @@
+name: zinc force projecter
+description: A cheaper varient of the force projector that uses less power.
+type: ForceProjector
+buildCostMultiplier: 0.01
+health: 180
+size: 3
+itemCapacity: 21
+timerUse: 1
+phaseUseTime: 175
+phaseRadiusBoost: 40
+radius: 50
+shieldHealth: 450
+cooldownNormal: 0.87
+cooldownLiquid: 0.62
+cooldownBrokenBase: 0.35
+basePowerDraw: 0.1
+consumes: {
+   power: 2
+   items: {
+   items: [
+   zinc/7
+   ]
+   booster: true
+   optional: true
+   }
+}
+
+requirements: [
+  zinc/50
+  titanium/35
+  silicon/ 75
+]
+category: effect
+research: copper-wall
+lightningChance: 0.05

@@ -1,0 +1,12 @@
+name: large zinc wall
+description: A larger varient of the zinc wall. Has a chance to produce lightning when hit.
+type: Wall
+health: 1750
+size: 2
+buildCostMultiplier: 0.01
+requirements: [
+  zinc/24
+]
+category: defense
+research: copper-wall
+lightningChance: 0.05

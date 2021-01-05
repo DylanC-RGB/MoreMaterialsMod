@@ -1,0 +1,58 @@
+name: Dynamite
+type: flying
+description: A slow-moving unit that is equipped with burst and charge missiles.
+health: 800
+speed: 2
+armor: 5
+accel: 0.003
+drag: 0.005
+engineOffset: 7
+range: 45
+flying: true
+hitSize: 13
+targetGround: true
+targetAir: true
+rotateSpeed: 9
+
+weapons:[
+{
+ name: dynamite-burst
+ reload: 50
+ x: 0
+ y: 0
+ rotate: false
+ recoil: 1
+ top:false
+ mirror: true
+ shootSound: missile
+ shots: 3
+ shotDelay: 10
+ bullet:{
+ type: MissileBulletType
+ damage: 10
+ color: 1b9494
+ speed: 5
+ lifetime: 45
+ }
+}
+ {
+ name: dynamite-charge
+ reload: 300
+ x: 0
+ y: 0
+ rotate: false
+ recoil: 2
+ top:false
+ mirror: true
+ shootSound: missile
+ bullet:{
+ type: MissileBulletType
+ splashDamageRadius: 30
+ damage: 200
+ splashDamage: 30
+ color: 1b9494
+ speed: 3
+ lifetime: 45
+ }
+}
+]

@@ -1,0 +1,12 @@
+name: large zinc alloy wall
+description: A larger varient of the zinc alloy wall. Will produce damaging lightning when hit.
+type: Wall
+health: 2250
+size: 2
+buildCostMultiplier: 0.25
+requirements: [
+  zinc-alloy/24
+]
+category: defense
+research: copper-wall
+lightningChance: 1

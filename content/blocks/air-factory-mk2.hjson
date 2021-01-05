@@ -1,0 +1,28 @@
+name: Air Factory MK2
+type: UnitFactory
+size: 3
+consumes: {
+power: 2
+}
+plans: [
+{
+unit: grenade
+requirements: [
+silicon/30
+lead/20
+titanium/20
+zinc/20
+
+]
+time:600
+}
+]
+
+requirements: [
+copper/50
+lead/120
+silicon/80
+zinc/50
+]
+category: units
+research: air-factory

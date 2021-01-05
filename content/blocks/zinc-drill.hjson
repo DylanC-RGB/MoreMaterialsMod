@@ -1,0 +1,20 @@
+name: Zinc Drill
+description: A compact drill that can mine faster than a pnuematic drill, but it requires power.
+type: Drill
+buildCostMultiplier: 0.01
+size: 2
+tier: 3
+consumes: {
+   power: 3
+}
+rotateSpeed: 2.0
+drillTime: 200
+requirements: [
+  copper/15
+  graphite/20
+  zinc/25
+]
+category: production
+research: laser-drill
+idleSound: drill
+idleSoundVolume: 0.01

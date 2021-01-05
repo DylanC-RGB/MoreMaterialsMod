@@ -1,0 +1,32 @@
+name: Exponential Reconstructor MK2
+type: Reconstructor
+size: 7
+consumes: {
+power: 8
+items: {
+items: [
+titanium/750
+silicon/850
+plastanium/650
+graphite/500
+zinc-alloy/100
+]
+}
+}
+constructTime: 2400
+
+requirements: [
+silicon/450
+thorium/650
+titanium/350
+lead/650
+zinc-alloy/150
+]
+
+upgrades: [
+[
+dynamite, missile
+]
+]
+category: units
+research: air-factory

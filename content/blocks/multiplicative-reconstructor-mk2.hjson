@@ -1,0 +1,31 @@
+name: Multiplicative Reconstructor MK2
+type: Reconstructor
+size: 5
+consumes: {
+power: 5
+items: {
+items: [
+titanium/80
+silicon/130
+metaglass/40
+zinc-alloy/50
+]
+}
+}
+constructTime: 1200
+
+requirements: [
+silicon/450
+thorium/650
+titanium/350
+lead/650
+zinc-alloy/75
+]
+
+upgrades: [
+[
+bomb, dynamite
+]
+]
+category: units
+research: air-factory

@@ -1,0 +1,36 @@
+name: alloy force projecter
+description: A more powerful version of the force projector. Can be boosted with zinc alloy.
+type: ForceProjector
+buildCostMultiplier: 0.01
+health: 720
+size: 3
+itemCapacity: 10
+timerUse: 1
+phaseUseTime: 175
+phaseRadiusBoost: 50
+radius: 150
+shieldHealth: 1800
+cooldownNormal: 2
+cooldownLiquid: 1.75
+cooldownBrokenBase: 1
+basePowerDraw: 0.4
+consumes: {
+   power: 8
+   items: {
+   items: [
+   zinc-alloy/1
+   ]
+   booster: true
+   optional: true
+   }
+}
+
+requirements: [
+  zinc-alloy/50
+  surge-alloy/50
+  silicon/ 100
+  thorium/ 100
+]
+category: effect
+research: force-projector
+lightningChance: 0.05

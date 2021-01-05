@@ -1,0 +1,7 @@
+type: Item
+name: Zinc Alloy
+description: A relatively unstable alloy that may emit sparks when hit.
+cost: 100
+color: ffe7d4
+hardness: 5
+research: coal

@@ -1,0 +1,31 @@
+type: GenericSmelter
+name: Zinc Alloy Smelter
+description: Combines zinc, thorium, silicon and graphite to make Zinc Alloy. Requires a large amount of power.
+size: 3
+buildCostMultiplier:0.025
+hasPower: true
+hasItems: true
+craftTime: 80
+updateEffect: blastsmoke
+consumes: {
+  power: 5
+  items: {
+    items: [
+      zinc/3
+      thorium/2
+      silicon/3
+      graphite/3
+    ]
+  }
+}
+requirements: [
+  zinc/100
+  thorium/50
+  silicon/75
+  graphite/50
+]
+category: crafting
+research: alloy-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: zinc-alloy/1

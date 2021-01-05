@@ -1,0 +1,55 @@
+name: Bomb
+type: flying
+description: A larger varient of the Grenade. Equipped with 2 machine guns and 2 high-damage missile launchers.
+health: 400
+speed: 3
+armor: 2
+accel: 0.003
+drag: 0.005
+engineOffset: 5
+range: 45
+flying: true
+hitSize: 9
+targetGround: true
+targetAir: true
+rotateSpeed: 9
+
+weapons:[
+{
+ name: bomb-blaster
+ reload: 10
+ x: 0
+ y: 0
+ rotate: false
+ recoil: 1
+ top:false
+ mirror: true
+ shootSound: lasershoot
+ bullet:{
+ type: BasicBulletType
+ damage: 5
+ color: 1b9494
+ speed: 5
+ lifetime: 45
+ }
+}
+ {
+ name: bomb-missile
+ reload: 300
+ x: 0
+ y: 0
+ rotate: false
+ recoil: 2
+ top:false
+ mirror: true
+ shootSound: missile
+ bullet:{
+ type: MissileBulletType
+ splashDamageRadius: 30
+ damage: 100
+ color: 1b9494
+ speed: 5
+ lifetime: 45
+ }
+}
+]

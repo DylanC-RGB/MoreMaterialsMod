@@ -1,0 +1,39 @@
+name: Missile
+type: flying
+description: A signifcantly more powerful version of grenade. To be avoided at all costs!
+health: 8000
+speed: 1
+accel: 0.005
+drag: 0.005
+engineOffset: 22
+range: 45
+flying: true
+hitSize: 46
+targetGround: true
+targetAir: true
+rotateSpeed: 9
+armor: 9
+
+weapons:[
+{
+ name: missile-missile
+ reload: 60
+ x: 0
+ y: 0
+ rotate: false
+ recoil: 2
+ top:false
+ mirror: true
+ shootSound: missile
+ bullet:{
+ type: MissileBulletType
+ splashDamageRadius: 50
+ damage: 125
+ splashDamage: 125
+ color: 1b9494
+ speed: 5
+ lifetime: 45
+ }
+
+}
+]
