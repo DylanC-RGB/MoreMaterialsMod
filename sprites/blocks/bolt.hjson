@@ -1,0 +1,68 @@
+name: Bolt
+type: naval
+description: An upgraded version of the spark with the addition of a shrapnel gun.
+health: 200
+speed: 1
+accel: 0.22
+drag: 0.15
+range: 45
+hitSize: 14
+trailLength: 20
+trailX: 4
+trailY: -8
+trailSc1: 1.8
+targetGround: true
+targetAir: true
+rotateSpeed: 3
+rotateShooting: true
+
+weapons:[
+{
+ name: bolt-standard
+ reload: 60
+ x: 0
+ y: 0
+ rotate: false
+ recoil: 2
+ top:false
+ mirror: true
+ shootSound: flame
+ bullet:{
+ type: BasicBulletType
+ damage: 39
+ lifetime: 100
+ lightning: 4
+ lightningLength: 7
+ lightningDamamge: 30
+ }
+
+}
+{
+ name: bolt-shrapnel
+ reload: 60
+ x: 0
+ y: 0
+ rotate: false
+ recoil: 2
+ top:false
+ mirror: true
+ shootSound: lasershoot
+ bullet:{
+ type: ShrapnelBulletType
+ length: 150
+ width: 10
+ damage: 20
+ serrationLenSc1: 1
+ serrationSpaceOffset: 1
+ serrationFadeOffset: 0
+ serrations: 3
+ serrationWidth: 4
+ fromColor: 62ae7f
+ toColor: 84f491
+ shootEffect: sparkShoot
+ smokeEffect: sparkShoot
+ lifetime: 10
+ }
+
+}
+]
