@@ -24,6 +24,9 @@ upgrades: [
 [
 grenade, bomb
 ]
+[
+spark, bolt
+]
 ]
 category: units
 research: air-factory
