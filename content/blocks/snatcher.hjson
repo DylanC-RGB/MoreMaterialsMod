@@ -1,0 +1,21 @@
+name: Snatcher
+description: A medium-size turret that will grab air units and kill them within secconds of grabbing them.
+type: TractorBeamTurret
+force: 28
+scaledForce: 24
+damage: 1
+hasPower: true
+consumes: {
+power: 6
+}
+requirements: [
+graphite/60
+titanium/180
+silicon/240
+zinc-alloy/50
+]
+buildCostMultiplier: 0.01
+range: 300
+size: 2
+health: 100
+category: turret

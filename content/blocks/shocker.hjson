@@ -1,0 +1,36 @@
+name: Shocker
+description: A medium-size turret that shoots powerful mini-lasers. Requires pyratite to fire.
+type: itemTurret
+requirements: [
+zinc/200
+copper/260
+lead/200
+silicon/50
+pyratite/20
+]
+ammoTypes: {
+pyratite: {
+ type: ShrapnelBulletType
+ length: 200
+ width: 10
+ damage: 60
+ serrationLenSc1: 1
+ serrationSpaceOffset: 1
+ serrationFadeOffset: 0
+ serrations: 3
+ serrationWidth: 4
+ fromColor: ffed00
+ toColor: ffed00
+ shootEffect: sparkShoot
+ smokeEffect: sparkShoot
+ lifetime: 10
+
+}
+}
+buildCostMultiplier: 0.01
+reloadTime: 27
+inaccuracy: 0.2
+range: 210
+size: 2
+health: 100
+category: turret
