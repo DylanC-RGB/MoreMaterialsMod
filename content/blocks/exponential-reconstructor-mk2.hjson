@@ -27,6 +27,9 @@ upgrades: [
 [
 dynamite, missile
 ]
+[
+mega, supernova
+]
 ]
 category: units
 research: air-factory
