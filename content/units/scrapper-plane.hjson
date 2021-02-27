@@ -1,14 +1,14 @@
 name: Scrapper Plane
 type: flying
 description: A fast plane that shoots scrap bullets. It is quite fragile.
-health: 40
+health: 20
 speed: 6
 accel: 0.003
 drag: 0.005
 engineOffset: 5
 range: 45
 flying: true
-hitSize: 5
+hitSize: 8
 targetGround: true
 targetAir: true
 rotateSpeed: 9
@@ -26,7 +26,7 @@ weapons:[
  shootSound: pew
  bullet:{
  type: BasicBulletType
- damage: 5
+ damage: 4
  color: 1b9494
  speed: 5
  lifetime: 45
