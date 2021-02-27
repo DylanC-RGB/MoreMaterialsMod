@@ -16,6 +16,16 @@ zinc/20
 ]
 time:600
 }
+{
+unit: scout
+requirements: [
+silicon/50
+lead/30
+zinc/40
+
+]
+time:900
+}
 ]
 
 requirements: [
