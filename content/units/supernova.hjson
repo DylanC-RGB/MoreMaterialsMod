@@ -17,20 +17,19 @@ armor: 3
 weapons:[
 {
  name: supernova-shot
- reload: 20
+ reload: 10
  x: 0
  y: 0
  rotate: false
  recoil: 2
  top:false
  mirror: false
- shootSound: missile
- shootCone: 90
+ shootSound: laser
  shots:5
- shotDelay:0
+ shotDelay:1
+ inaccuracy:20
  bullet:{
- type: MissileBulletType
- splashDamageRadius: 50
+ type: BasicBulletType
  damage: 10
  splashDamage: 10
  color: 1b9494
