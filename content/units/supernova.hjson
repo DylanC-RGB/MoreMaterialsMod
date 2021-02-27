@@ -1,9 +1,9 @@
 name: Supernova
 type: flying
-description: An adapted version of the Mega, with a mounted swarmer turret.
-health: 4000
+description: An adapted version of the Mega, with a mounted swarmer turret. It is lacking in terms of armour for it's size.
+health: 2000
 speed: 2
-accel: 0.1
+accel: 0.003
 drag: 0.005
 engineOffset: 22
 range: 45
