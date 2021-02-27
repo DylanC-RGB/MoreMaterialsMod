@@ -1,1 +1,42 @@
+name: Supernova
+type: flying
+description: An adapted version of the Mega, with a mounted swarmer turret.
+health: 4000
+speed: 2
+accel: 0.1
+drag: 0.005
+engineOffset: 22
+range: 45
+flying: true
+hitSize: 46
+targetGround: true
+targetAir: true
+rotateSpeed: 9
+armor: 3
 
+weapons:[
+{
+ name: supernova-shot
+ reload: 20
+ x: 0
+ y: 0
+ rotate: false
+ recoil: 2
+ top:false
+ mirror: false
+ shootSound: missile
+ shootCone: 90
+ shots:5
+ shotDelay:0
+ bullet:{
+ type: MissileBulletType
+ splashDamageRadius: 50
+ damage: 10
+ splashDamage: 10
+ color: 1b9494
+ speed: 5
+ lifetime: 45
+ }
+
+}
+]
