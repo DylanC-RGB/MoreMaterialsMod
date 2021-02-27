@@ -26,12 +26,20 @@ zinc/40
 ]
 time:900
 }
+{
+unit: scrapper-plane
+requirements: [
+scrap/10
+copper/5
+lead/5
+]
+time:100
+}
 ]
 
 requirements: [
 copper/50
 lead/120
-silicon/80
 zinc/50
 ]
 category: units
