@@ -1,12 +1,12 @@
 name: Scrapper Plane
 type: flying
-description: A fast plane that shoots scrap bullets. It is quite fragile.
-health: 10
+description: A improved version of the scrapper drone that shoots a burst of scrap bullets.
+health: 40
 speed: 6
 accel: 0.003
 drag: 0.005
 engineOffset: 7
-range: 45
+range: 55
 flying: true
 hitSize: 8
 targetGround: true
@@ -16,7 +16,7 @@ rotateSpeed: 9
 weapons:[
 {
  name: scrapper-shot
- reload: 10
+ reload: 60
  x: 0
  y: 0
  rotate: false
@@ -24,12 +24,14 @@ weapons:[
  top:false
  mirror: true
  shootSound: pew
+ shots: 3
+ shotDelay: 5
  bullet:{
  type: BasicBulletType
- damage: 4
+ damage: 7
  color: 1b9494
  speed: 5
- lifetime: 45
+ lifetime: 55
  }
 
 }
