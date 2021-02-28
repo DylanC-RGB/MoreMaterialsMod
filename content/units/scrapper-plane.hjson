@@ -1,7 +1,7 @@
 name: Scrapper Plane
 type: flying
 description: A fast plane that shoots scrap bullets. It is quite fragile.
-health: 20
+health: 10
 speed: 6
 accel: 0.003
 drag: 0.005
