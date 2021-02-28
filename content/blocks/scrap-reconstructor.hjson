@@ -1,0 +1,28 @@
+name: Scrap Recontructor MK1
+type: Reconstructor
+size: 3
+consumes: {
+power: 2
+items: {
+items: [
+scrap/40
+lead/20
+graphite/40
+]
+}
+}
+constructTime: 300
+
+requirements: [
+copper/200
+lead/120
+zinc/65
+silicon/30
+]
+
+upgrades: [
+[
+scrapper-drone, scrapper-plane
+]
+category: units
+research: air-factory
