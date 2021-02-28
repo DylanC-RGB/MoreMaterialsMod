@@ -1,8 +1,8 @@
 name: Supernova
 type: flying
-description: An adapted version of the Mega, with a mounted swarmer turret. It is lacking in terms of armour for it's size.
+description: A mega that has been adapted to be fast, however it is roughly 4 times weaker than the other T4s.
 health: 2000
-speed: 2
+speed: 5
 accel: 0.003
 drag: 0.005
 engineOffset: 22
@@ -12,7 +12,7 @@ hitSize: 46
 targetGround: true
 targetAir: true
 rotateSpeed: 9
-armor: 3
+armor: 2
 
 weapons:[
 {
