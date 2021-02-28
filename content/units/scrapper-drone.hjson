@@ -1,0 +1,36 @@
+name: Scrapper Drone
+type: flying
+description: A weak drone that fires a scrap-bullet machine gun.
+health: 10
+speed: 7
+accel: 0.003
+drag: 0.005
+engineOffset: 7
+range: 45
+flying: true
+hitSize: 8
+targetGround: true
+targetAir: true
+rotateSpeed: 9
+
+weapons:[
+{
+ name: scrapper-drone-shot
+ reload: 10
+ x: 0
+ y: 0
+ rotate: false
+ recoil: 2
+ top:false
+ mirror: true
+ shootSound: pew
+ bullet:{
+ type: BasicBulletType
+ damage: 4
+ color: 1b9494
+ speed: 5
+ lifetime: 45
+ }
+
+}
+]
