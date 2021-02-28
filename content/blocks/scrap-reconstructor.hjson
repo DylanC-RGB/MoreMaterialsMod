@@ -24,5 +24,6 @@ upgrades: [
 [
 scrapper-drone, scrapper-plane
 ]
+]
 category: units
 research: air-factory
