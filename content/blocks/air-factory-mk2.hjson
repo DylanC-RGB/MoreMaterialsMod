@@ -27,7 +27,7 @@ zinc/40
 time:900
 }
 {
-unit: scrapper-plane
+unit: scrapper-drone
 requirements: [
 scrap/10
 copper/5
