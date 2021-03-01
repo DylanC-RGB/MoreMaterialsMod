@@ -1,1 +1,48 @@
+name: Cryo
+type: legs
+description: A small spider that has a powerful frost laser.
+health: 400
+speed: 3
+accel: 0.3
+drag: 0.1
+range: 45
+hitSize: 5
+targetGround: true
+targetAir: false
+legCount: 4
+legMoveSpace: 1
+legPairOffset: 3
+legExtension: -5
+legBaseOffset: 6
+landShake: 0.1
+legSpeed: 0.1
+legLengthSc1: 1
+rippleScale: 2
+legSplashDamage: 25
+legSplashRange: 30
+allowLegStep: true
+visualElavation: 0.5
 
+
+weapons:[
+{
+ name: cryo-blaster
+ reload: 20
+ x: 0
+ y: 0
+ rotate: false
+ recoil: 2
+ top:false
+ mirror: true
+ shootSound: laser
+ bullet:{
+ type: MissileBulletType
+ splashDamageRadius: 30
+ damage: 13
+ color: 1b9494
+ speed: 5
+ lifetime: 45
+ }
+
+}
+]
