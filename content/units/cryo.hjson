@@ -13,7 +13,7 @@ legCount: 1
 legMoveSpace: 1
 legPairOffset: 3
 legExtension: -5
-legBaseOffset: 6
+legBaseOffset: 12
 landShake: 0.1
 legSpeed: 0.2
 legLengthSc1: 2
