@@ -16,6 +16,17 @@ zinc/20
 ]
 time:600
 }
+{
+unit: cryo
+requirements: [
+silicon/25
+metaglass/35
+zinc/20
+
+
+]
+time:600
+}
 ]
 
 requirements: [
