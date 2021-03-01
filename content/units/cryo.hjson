@@ -5,7 +5,7 @@ health: 400
 speed: 3
 accel: 0.3
 drag: 0.1
-range: 45
+range: 40
 hitSize: 5
 targetGround: true
 targetAir: false
@@ -27,7 +27,7 @@ visualElavation: 0.5
 weapons:[
 {
  name: cryo-blaster
- reload: 20
+ reload: 60
  x: 0
  y: 0
  rotate: false
@@ -36,12 +36,20 @@ weapons:[
  mirror: true
  shootSound: laser
  bullet:{
- type: MissileBulletType
- splashDamageRadius: 30
- damage: 13
- color: 1b9494
- speed: 5
- lifetime: 45
+ type: ShrapnelBulletType
+ length: 135
+ width: 10
+ damage: 5
+ serrationLenSc1: 1
+ serrationSpaceOffset: 1
+ serrationFadeOffset: 0
+ serrations: 3
+ serrationWidth: 4
+ fromColor: 6974c4
+ toColor: 8aa3f4
+ shootEffect: sparkShoot
+ smokeEffect: sparkShoot
+ lifetime: 10
  }
 
 }
