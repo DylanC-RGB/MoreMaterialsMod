@@ -12,8 +12,8 @@ targetAir: false
 legCount: 1
 legMoveSpace: 1
 legPairOffset: 3
-legExtension: -5
-legBaseOffset: 12
+legExtension: 0
+legBaseOffset: 6
 landShake: 0.1
 legSpeed: 0.2
 legLengthSc1: 2
