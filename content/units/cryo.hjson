@@ -9,11 +9,11 @@ range: 40
 hitSize: 5
 targetGround: true
 targetAir: false
-legCount: 1
+legCount: 100
 legMoveSpace: 1
 legPairOffset: 3
 legExtension: -10
-legBaseOffset: 6
+legBaseOffset: 5
 landShake: 0.1
 legSpeed: 0.2
 legLengthSc1: 2
